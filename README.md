@@ -3,7 +3,7 @@
 This is simple microblog created using Flask framework.
 Before running the microblog app make sure you have done the following:
 
-1. Created a Virtual Environment and installed all the requirements in requirements.txt
+1. Created a Virtual Environment and installed all the requirements in ```requirements.txt```file.
 
 2. Set FLASK_APP environment variable running:
 ```
