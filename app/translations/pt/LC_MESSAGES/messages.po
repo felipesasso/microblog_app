@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-02 16:30-0800\n"
+"POT-Creation-Date: 2019-12-02 22:28-0800\n"
 "PO-Revision-Date: 2019-12-02 16:32-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pt\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: app/__init__.py:22
+#: app/__init__.py:20
 msgid "Please log in to access this page."
 msgstr "Faça login para acessar esta página."
 
@@ -27,8 +27,8 @@ msgid "[Microblog] Reset Your Password"
 msgstr "[Microblog] Redefinir sua senha"
 
 #: app/forms.py:21 app/forms.py:28 app/forms.py:61
-msgid "Nome de usuário"
-msgstr ""
+msgid "Username"
+msgstr "Usuário"
 
 #: app/forms.py:22 app/forms.py:30 app/forms.py:53
 msgid "Password"
@@ -78,6 +78,14 @@ msgstr "Enviar"
 msgid "Say something"
 msgstr "Diga algo"
 
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr "Erro: Serviço de tradução não foi configurado."
+
+#: app/translate.py:16
+msgid "Error: the translation service failed."
+msgstr "Erro: O serviço de tradução falhou."
+
 #: app/templates/404.html:4
 msgid "Not Found"
 msgstr "Não encontrado"
@@ -98,6 +106,10 @@ msgstr "O administrador foi notificado. Desculpe pela inconveniência!"
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s disse %(when)s"
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr "Traduzir"
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
@@ -122,6 +134,10 @@ msgstr "Perfil"
 #: app/templates/base.html:29
 msgid "Logout"
 msgstr "Sair"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr "Erro: Não foi possível conectar ao servidor"
 
 #: app/templates/edit_profile.html:5
 msgid "Edit Profile"
@@ -193,3 +209,6 @@ msgstr "Seguir"
 #: app/templates/user.html:19
 msgid "Unfollow"
 msgstr "Deixar de seguir"
+
+#~ msgid "Nome de usuário"
+#~ msgstr ""
